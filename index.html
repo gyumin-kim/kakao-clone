@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Friends</title>
 </head>
 <body>
-    <header>
+    <header class="top-header">
         <div class="header__top">
             <div class="header__column">
                 <i class="fa fa-plane"></i>
@@ -28,7 +29,7 @@
                 <span class="header__text">Manage</span>
             </div>
             <div class="header__column">
-                <span class="header__text">Friends <span class="header__number">1</span></span>
+                <span class="header__text">Friends <span class="header__number">2</span></span>
             </div>
             <div class="header__column">
                 <i class="fa fa-cog fa-lg"></i>
@@ -47,19 +48,30 @@
             </header>
             <div class="friends__section-rows">
                 <div class="friends__section-row">
-                    <a href="profile.html">
-                        <img src="" alt="">
-                        <span class="friends_section-name">Gyumin</span>
-                    </a>
-                </div>
-                <div class="friends__section-row">
-                    <a href="profile.html">
-                        <img src="" alt="">
-                        <span class="friends_section-name">Friends' Names Display</span>
+                    <a href="profile.html" class="friends_section-name">
+                        <img src="images/gyumin.jpeg" alt="Gyumin">
+                        Gyumin
                     </a>
                 </div>
             </div>
         </section>
+        <section class="friends__section">
+                <header class="friends__section-header">
+                    <h6 class="friends__section-title">Recommended Friends</h6>
+                </header>
+                <div class="friends__section-rows">
+                    <div class="friends__section-row">
+                        <div class="friends__section-column">
+                            <img src="images/ryan.png" alt="ryan">
+                            <span class="friends_section-name">Discover more people</span>
+                        </div>
+                        <div class="friends__recommended">
+                            46
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
         <section class="friends__section">
             <header class="friends__section-header">
                 <h6 class="friends__section-title">Friends</h6>
@@ -67,11 +79,20 @@
             <div class="friends__section-rows">
                 <div class="friends__section-row">
                     <div class="friends__section-column">
-                        <img src="" alt="">
+                        <img src="images/elonmusk.jpg" alt="elonmusk">
                         <span class="friends_section-name">Elon Musk</span>
                     </div>
                     <span class="friends__section-tagline">
                         He not busy being born is busy dying.
+                    </span>
+                </div>
+                <div class="friends__section-row">
+                    <div class="friends__section-column">
+                        <img src="images/warrenbuffett.jpg" alt="warrenbuffett">
+                        <span class="friends_section-name">Warren Buffett</span>
+                    </div>
+                    <span class="friends__section-tagline">
+                        존버만이 살길이다.
                     </span>
                 </div>
             </div>
